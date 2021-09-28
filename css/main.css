@@ -1,7 +1,7 @@
 .img{
-    height: 200px;
+    height: 12rem;
     border-radius: 25%;
-    padding: auto;;
+    padding: 0 12px;
 }
 .fu{
     background-color: rgb(73, 73, 73);
@@ -18,12 +18,27 @@
     height: auto;
     padding-left: 15px;
     align-self: center;
+    width: auto;
 }
 .contenter{
     display: flex;
-    margin: 0px 12px;
+    margin: 12px 12px;
     padding: 10px 0px;
+    background-color: rgba(255, 255, 255, 0.685);
 }
-h1, p{
-    color: rgb(231, 231, 231);
+p{
+    color: rgb(39, 39, 39);
+}
+h1{
+    color: white;
+}
+
+.warp_img{
+    flex: 0 0 auto;
+    width: 25%;
+    text-align: center;
+}
+.warp_text{
+    width: 75%;
+    text-align: left;
 }
