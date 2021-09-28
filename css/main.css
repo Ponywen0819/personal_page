@@ -1,20 +1,29 @@
 .img{
     height: 200px;
     border-radius: 25%;
+    padding: auto;;
 }
 .fu{
     background-color: rgb(73, 73, 73);
     margin: 0px;
     width: 100%;
+    position: absolute ;
+    top: 0px;
 }
 *{
-    font-family:Helvetica,Arial,sans-serif; ;
+    font-family:Helvetica,Arial,sans-serif; 
+    
 }
 .img_text{
-    height: 2rem;
+    height: auto;
+    padding-left: 15px;
+    align-self: center;
 }
 .contenter{
     display: flex;
     margin: 0px 12px;
     padding: 10px 0px;
+}
+h1, p{
+    color: rgb(231, 231, 231);
 }
